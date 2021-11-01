@@ -467,7 +467,7 @@ class Tooltip extends Component {
 
         {/* This renders the child element in place in the parent's layout */}
         {hasChildren ? (
-          <View ref={this.childWrapper} onLayout={this.measureChildRect}>
+          <View ref={this.childWrapper} onLayout={this.measureChildRect} style={this.props.childrenContainerStyle}>
             {children}
           </View>
         ) : null}

@@ -44,6 +44,8 @@ declare module 'react-native-walkthrough-tooltip' {
 
     // Styles the View element that wraps the children to clone it
     childrenWrapperStyle?: StyleProp<ViewStyle>;
+
+    childrenContainerStyle?: StyleProp<ViewStyle>;
   }
 
   export interface TooltipProps extends Partial<TooltipStyleProps> {
